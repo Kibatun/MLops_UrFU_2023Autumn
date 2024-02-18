@@ -1,0 +1,7 @@
+[core]
+    remote = ssh-storage
+['remote "ssh-storage"']
+    url = ssh://root@80.249.149.3/opt/datasets
+    user = root
+    port = 22
+    keyfile = ~/.ssh/vscale
